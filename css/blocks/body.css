@@ -1,0 +1,17 @@
+.container {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 20vw auto;
+}
+
+@media print {
+  .container {
+    width: 95vw;
+    font-size: 0.875em;
+    grid-template-columns: 25vw auto;
+  }
+}

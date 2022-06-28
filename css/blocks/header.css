@@ -1,0 +1,21 @@
+.container__header {
+  margin: 0;
+  padding: 0;
+  padding-left: var(--basic-padding-main);
+  width: 100%;
+  font-size: 2em;
+  font-weight: 600;
+  height: max-content;
+}
+
+@media print {
+  .container__header {
+    font-size: 0.8em;
+  }
+}
+
+.container__header h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}

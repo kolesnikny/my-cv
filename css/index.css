@@ -1,0 +1,13 @@
+/*Global*/
+
+@import "./global.css"; /*global page config*/
+@import "./fonts.css"; /*fonts*/
+@import "./variables.css"; /*variables*/
+
+/*Bloks*/
+
+@import "./blocks/body.css"; /*.container*/
+@import "./blocks/header.css"; /* .container__header*/
+@import "./blocks/main.css"; /* .container__main*/
+@import "./blocks/expirience.css"; /*.main__expirience, expirience__container*/
+@import "./blocks/aside.css"; /*.aside__container ....*/

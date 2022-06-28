@@ -1,0 +1,7 @@
+.container__main {
+  padding-left: var(--basic-padding-main);
+}
+
+.main__profile p {
+  text-align: justify;
+}

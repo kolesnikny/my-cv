@@ -1,0 +1,62 @@
+.main__expirience h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.expirience__container {
+  width: 100%;
+}
+
+.expirience__container > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.expirience__item {
+  display: grid;
+  grid-template-columns: 10% auto;
+  gap: 10px 30px;
+}
+
+.expirience__item h3 {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 5px;
+  text-transform: uppercase;
+}
+
+.expirience__item span {
+  font-weight: 600;
+}
+
+.expirience__item p {
+  text-align: justify;
+  margin: 0;
+}
+
+.item__sources p {
+  text-align: left;
+}
+
+.item__period {
+  grid-column: 1;
+  grid-row: 1 / 5;
+}
+
+.item__period p {
+  text-align: left;
+}
+
+@media print {
+  .item__period {
+    font-size: 0.7em;
+  }
+}
+
+.item__atributes p,
+a {
+  font-style: italic;
+}
